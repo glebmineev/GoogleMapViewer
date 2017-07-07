@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_header">
+        <!--<item-->
+            <!--android:id="@+id/drawer_courses"-->
+            <!--android:icon="@drawable/ic_book_white_36dp"-->
+            <!--android:title="@string/menu_courses"/>-->
+        <!--<item-->
+        <!--android:id="@+id/drawer_private_office"-->
+        <!--android:icon="@drawable/ic_account_circle_white_36dp"-->
+        <!--android:title="@string/menu_private_office"/>-->
+        <!--<item-->
+        <!--android:id="@+id/drawer_help"-->
+        <!--android:icon="@drawable/ic_help_white_36dp"-->
+        <!--android:title="@string/menu_help"/>-->
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@drawable/ic_settings_white_36dp"
+            android:title="@string/menu_settings"/>
+    </group>
+
+</menu>

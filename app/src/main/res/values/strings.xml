@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MapSample</string>
+
+    <!-- drawer menu -->
+    <string name="menu_map">Карта</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_exit">Выход</string>
+
+    <!-- Toolbar -->
+    <string name="navigation_drawer_open">Открыть меню навигации</string>
+    <string name="navigation_drawer_close">Закрыть меню навигации</string>
+
+    <!-- dialogs -->
+    <string name="action_dialog">Выберите действие:</string>
+    <string name="edit_dialog_title">Редактирование гео-метку</string>
+    <string name="delete_dialog_title">Вы уверены, что хотитте удалить гео-метку?</string>
+    <string name="edit_btn">Редактировать</string>
+    <string name="delete_btn">Удалить</string>
+    <string name="save_btn">Сохранить</string>
+    <string name="cancel_btn">Закрыть</string>
+    <string name="description">Описание</string>
+    <string name="latitude">Широта</string>
+    <string name="longitude">Долгота</string>
+
+</resources>

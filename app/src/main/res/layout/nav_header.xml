@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chosen_account_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/profileImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?colorPrimary"
+        android:paddingBottom="@dimen/navdrawer_logo_margin_top"
+        android:paddingRight="@dimen/navdrawer_logo_margin_left"
+        android:paddingTop="@dimen/navdrawer_logo_margin_top"
+        android:scaleType="fitEnd" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?colorPrimary"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/navdrawer_logo_margin_left"
+        android:layout_marginStart="@dimen/navdrawer_logo_margin_left"
+        android:orientation="horizontal">
+
+        <com.evelopers.mapviewer.ui.ProfileImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/profile_image_height"
+            android:layout_height="@dimen/profile_image_height"
+            android:layout_marginBottom="@dimen/navdrawer_logo_margin_top"
+            android:layout_marginEnd="@dimen/navdrawer_logo_margin_right"
+            android:layout_marginLeft="@dimen/navdrawer_logo_margin_left"
+            android:layout_marginRight="@dimen/navdrawer_logo_margin_right"
+            android:layout_marginStart="@dimen/navdrawer_logo_margin_left"
+            android:layout_marginTop="@dimen/navdrawer_logo_margin_top"
+            android:scaleType="centerCrop"
+            app:maskDrawable="@drawable/circle_mask" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/user_info_margin_top"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/normal_font_size" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

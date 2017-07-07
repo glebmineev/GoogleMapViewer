@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- navigation drawer -->
+    <dimen name="navdrawer_logo_margin_left">8dp</dimen>
+    <dimen name="navdrawer_logo_margin_right">10dp</dimen>
+    <dimen name="navdrawer_logo_margin_top">12dp</dimen>
+    <dimen name="user_info_margin_top">18dp</dimen>
+
+    <!-- font size -->
+    <dimen name="smallest_font_size">6sp</dimen>
+    <dimen name="small_font_size">12sp</dimen>
+    <dimen name="normal_font_size">14sp</dimen>
+    <dimen name="middle_font_size">18sp</dimen>
+    <dimen name="title_font_size">25sp</dimen>
+
+    <!-- profile image view -->
+    <dimen name="profile_image_buttom_padding">15dp</dimen>
+    <dimen name="profile_image_height">60dp</dimen>
+
+    <!-- edit dlg -->
+    <dimen name="edit_dlg_description_height">150dp</dimen>
+
+</resources>
